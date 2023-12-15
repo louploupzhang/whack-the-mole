@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack The Mole</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+	<h1>🔨 Whack The Mole 🐀</h1>
+    <form>
+		<div>
+			<!--The stats display-->
+			<input type="text" class="time" value="Time Left"/>
+			<input type="text" class="score" value="Score"/>
+		</div>
+		<br>
+		<div>
+			<!--The game area-->
+			<table>
+				<tr>
+					<td id="0" onclick="hit(this)" state="0"></td>
+					<td id="1" onclick="hit(this)" state="0"></td>
+					<td id="2" onclick="hit(this)" state="0"></td>
+				</tr>
+				<tr>
+					<td id="3" onclick="hit(this)" state="0"></td>
+					<td id="4" onclick="hit(this)" state="0"></td>
+					<td id="5" onclick="hit(this)" state="0"></td>
+				</tr>
+				<tr>
+					<td id="6" onclick="hit(this)" state="0"></td>
+					<td id="7" onclick="hit(this)" state="0"></td>
+					<td id="8" onclick="hit(this)" state="0"></td>
+				</tr>
+			</table>
+		</div>
+		<!--The start button-->
+		<button type="button" onclick="start()">START</button>
+	</form>
+</body>
+</html>

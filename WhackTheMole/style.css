@@ -1,0 +1,54 @@
+/*Style for the heading: Whack The Mole*/
+h1{
+    color: rebeccapurple;
+    font-size: xx-large;
+    font-family: Brush Script MT;
+}
+/*Style for the stats display text box*/
+input{
+    background-color: rgb(152, 79, 46);
+    color: rgb(249, 249, 0);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+/*Style for the general body*/
+body {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    widows: 1000px;
+    text-align: center;
+    margin-top: 30px;
+    overflow: hidden;
+    background-image: url(image/background.png);
+    background-color: greenyellow;
+}
+/*Style for the cells*/
+tr, td{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    border-color: green;
+    background-position: center;
+}
+/*Style for the table*/
+table {
+    margin: auto;
+    /*Change the cursor to a hammer when it is inside the table area, and adjust the offset to x=5 y=25 in order to anchor the hammer's bottom as the cursor's finger*/   
+    cursor: url(image/hammer.png) 5 25,auto;
+}
+/*Style for the START button*/
+button {
+    background-color: green;
+    border: none;
+    color: yellow;
+    padding: 15px 32px;
+    text-align: center;    
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
